@@ -14,9 +14,8 @@ Summary: Functions for easily manipulating colours, creating colour scales and c
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-shades-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-shades-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-shades-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-shades-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-shades-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-shades-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-shades-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-shades-feedstock)
 
 Current release info
 ====================
