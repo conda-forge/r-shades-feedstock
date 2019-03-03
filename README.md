@@ -7,7 +7,7 @@ About r-shades
 
 Home: https://github.com/jonclayden/shades
 
-Package license: BSD_3_clause + file LICENCE
+Package license: BSD_3_clause
 
 Feedstock license: BSD 3-Clause
 
@@ -113,5 +113,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@dpryan79](https://github.com/dpryan79/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 
