@@ -1,4 +1,4 @@
-{% set version = '1.4.0' %}
+{% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shades_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shades/shades_{{ version }}.tar.gz
-  sha256: 122fa09aa893cf81f95835ccf69459162dbbc14defa0c11c6d6bbb0ca52ee9fd
+  sha256: 848398c2e1c10e9c95582841867bb3d1143ff8495047fab03313fe239feed2ac
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -34,8 +34,7 @@ test:
 about:
   home: https://github.com/jonclayden/shades
   license: BSD_3_clause
-  summary: Functions for easily manipulating colours, creating colour scales and calculating
-    colour distances.
+  summary: Functions for easily manipulating colours, creating colour scales and calculating colour distances.
   license_family: BSD
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_3_clause'
